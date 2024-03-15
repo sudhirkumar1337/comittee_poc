@@ -1,0 +1,60 @@
+body {
+    background: aliceblue;
+    width: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+.page-title{
+    color: #343a40;
+    font-size: 1.125rem;
+    margin-bottom: 0;
+}  
+.bg-body-tertiary{
+    background-color: #ffffff;
+}
+.content-wrapper {
+    background: aliceblue;
+    padding: 2.75rem 2.25rem;
+    width: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+.page-header{
+    margin: 0 0 1.5rem 0;
+}
+.page-title .page-title-icon {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+    text-align: center;
+    -webkit-box-shadow: 0px 3px 8.3px 0.7px rgba(163, 93, 255, 0.35);
+    box-shadow: 0px 3px 8.3px 0.7px rgba(163, 93, 255, 0.35);
+}
+.bg-gradient-primary {
+    background: linear-gradient(to right, #da8cff, #9a55ff) !important;
+}
+.bg-gradient-danger{
+    background: linear-gradient(to right, #ffbf96, #fe7096) !important;
+}
+.bg-gradient-info {
+    background: linear-gradient(to right, #90caf9, #047edf 99%) !important;
+}
+.bg-gradient-success {
+    background: linear-gradient(to right, #84d9d2, #07cdae) !important;
+}
+.float-right {
+    float: right !important;
+}
+.page-title .page-title-icon i {
+    font-size: .9375rem;
+    line-height: 36px;
+}
+.text-white{
+    color: #ffffff;
+}
+.card-body {
+    padding: 2.5rem 2.5rem;
+}
